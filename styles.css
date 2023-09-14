@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+#animal-photos{
+	width:100vw;
+	border:2px solid red;
+}
+.cont{
+	display:flex; 
+	width:100%; 
+	border:2px solid yellow;
+	flex-direction:row;;
+}
+div>img{
+	margin-left:10px;
+	width:33.33 %;
+	 display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+h1{
+	text-align:center;
+}
