@@ -1,21 +1,28 @@
 /*  your css code here. If applicable */
 #animal-photos{
-	width:100vw;
-	border:2px solid red;
+	width:100%;
+	
+	background-color:#C1C1C1;
 }
-.cont{
-	display:flex; 
-	width:100%; 
-	border:2px solid yellow;
-	flex-direction:row;;
+.ro{
+	display:flex;
+	width:80%;
+
+	margin:10%;
+	
 }
-div>img{
-	margin-left:10px;
-	width:33.33 %;
-	 display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+.col{
+	display:flex;  
+/* 	border:2px solid yellow; */
+	background-color:#444444;
+	width:33.33%;
+	flex-direction:column;
 }
 h1{
 	text-align:center;
+	color:#;
+}
+img{
+	margin:10px;
+	align-items:center;
 }
